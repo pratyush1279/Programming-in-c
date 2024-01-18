@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+    int x = 5;
+    x = x + 8;
+    printf("%d",x);
+    x = 2;
+    x = x + 14;
+    printf("\n%d",x);
+    x = x - 20;
+    printf("\n%d",x);
+}
+    
