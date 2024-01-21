@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+    int h = 5;
+    int r = 2;
+    float v = 3.14 * r * r * h;
+    printf("%f",v);
+    return 0;
+}
