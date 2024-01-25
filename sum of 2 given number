@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+    float x;
+    printf ("Enter The first number : ");
+    scanf ("%f",&x);
+    float y;
+    printf ("Enter The second number : ");
+    scanf ("%f",&y);
+    float sum = x+y;
+    printf ("sum of the numbers that : %f",sum);
+    return 0;
+}
