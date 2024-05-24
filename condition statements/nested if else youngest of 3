@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main(){
+    int a,b,c;
+    printf("Enter age of Ram  ");
+    scanf("%d",&a);
+    printf("Enter age of Shyam  ");
+    scanf("%d",&b);
+    printf("Enter age of Ajay  ");
+    scanf("%d",&c);
+    if(a<b){
+        if(a<c)
+        printf("%d is the youngest",a);
+        else
+        printf("%d is the youngest",c);
+    }
+    else{
+        if(b<c)
+        printf("%d is the youngest",b);
+        else
+        printf("%d is the youngest",c);
+    }
+}
