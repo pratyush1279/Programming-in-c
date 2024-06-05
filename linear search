@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<stdlib.h>
+int main(){
+int item, i=0;
+int a[5]={23,45,69,78,19};
+printf("Enter Searching Item  : ");
+scanf("%d",&item);
+while (i<5){
+    if(a[i] == item){
+        printf("Item found %d",i);
+        exit(0);
+    }
+    ++i;
+    if(i>=5){
+        printf("Item not found");
+        exit(0);
+    }
+}
+return 0;
+}
